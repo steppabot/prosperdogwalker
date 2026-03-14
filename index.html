@@ -123,6 +123,9 @@ BOOK YOUR FREE MEET & GREET
 
 </section>
 
+<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-9e4d48f8-3f90-41f6-afde-8b1faced5c48" data-elfsight-app-lazy></div>
 
 <section class="service-areas">
 
@@ -171,6 +174,27 @@ Phone:
 
 </footer>
 
-
 </body>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    function removeElfsightBranding() {
+        var elfsightLink = document.querySelector('a[href*="elfsight.com/google-reviews-widget"]');
+        if (elfsightLink) {
+            elfsightLink.style.display = 'none';
+        }
+    }
+
+    removeElfsightBranding();
+
+    var observer = new MutationObserver(function() {
+        removeElfsightBranding();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    setInterval(removeElfsightBranding, 1000);
+});
+</script>
+  
 </html>
