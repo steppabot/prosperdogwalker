@@ -2434,19 +2434,19 @@ html {
 }
 
 /* =========================
-   FRISCO DOMAIN PAGE TWEAKS
+   PROSPER DOMAIN PAGE TWEAKS
 ========================= */
 
-.frisco-domain-page .trust-grid img:nth-child(1) {
-    object-position: center 42%;
-}
-
-.frisco-domain-page .trust-grid img:nth-child(2) {
-    object-position: center 42%;
-}
-
-.frisco-domain-page .trust-grid img:nth-child(3) {
+.prosper-domain-page .trust-grid img:nth-child(1) {
     object-position: center 38%;
+}
+
+.prosper-domain-page .trust-grid img:nth-child(2) {
+    object-position: center 35%;
+}
+
+.prosper-domain-page .trust-grid img:nth-child(3) {
+    object-position: center 22%;
 }
 
 @media (max-width: 980px) {
